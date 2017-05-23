@@ -24,7 +24,7 @@ body {
 
 #stripe {
 	background-color: #FFF;
-	height: 30px;
+	min-height: 40px;
 	text-align: center;
 	color: #333;
 }
@@ -71,4 +71,20 @@ button:hover{
 #message {
 	display: inline-block;
 	width: 20%;
+}
+
+#modeLayout{
+  	display: inline-block;
+  }
+
+@media (max-width: 450px) {
+
+  #message {
+  	display: block;
+  	margin-left: 40%;
+  }
+
+  #modeLayout{
+  	display: block;
+  }
 }
